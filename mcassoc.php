@@ -96,7 +96,6 @@ class MCAssoc {
 		try {
 			$key = $this->unwrapKey($rdata->key);
 		} catch (Exception $e) {
-			throw $e;
 			throw new Exception('key invalid');
 		}
 
